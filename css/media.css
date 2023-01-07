@@ -1,0 +1,18 @@
+@media (max-width: 960px) {
+    .header__menu-btn {
+        display: block;
+    }
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 120px;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+}

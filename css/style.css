@@ -135,6 +135,17 @@ li {
     background: #fff;
     transition: all 0.3s;
 }
+.header__menu-btn {
+    width: 30px;
+    display: none;
+}
+
+.header__menu-row {
+    width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
+}
 .slider {
     background-color: #81e4ed;
     padding: 20px 0 10px;
