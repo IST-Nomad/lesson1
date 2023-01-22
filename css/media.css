@@ -10,9 +10,19 @@
         left: 0;
         right: 0;
         width: 100%;
+        background-color: #fff;
     }
     .header__menu li {
         display: block;
         text-align: center;
+    }
+    .header__menu li + li{
+        margin-left: 0;
+    }
+    .header__drop-down.drop-down{
+        margin-left: 0;
+    }
+    .header__drop-down.drop-down + .header__drop-down.drop-down {
+        margin-left: 0;
     }
 }
